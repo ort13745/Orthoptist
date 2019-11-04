@@ -65,8 +65,14 @@ header h1 {
     background-color: #aff;
 }
 
+.content h2 {
+    margin: 35px auto 5px;
+    background-color: #fedcba;
+    text-align: center;
+}
+
 .content h3 {
-    margin: 35px auto ;
+    margin: 55px auto ;
     background-color: #fedcba;
     text-align: center;
 }
@@ -79,12 +85,7 @@ header h1 {
 	margin-top: 20px;
 }
 
-/h2 {
-/    width: 100%;
-/    margin: 35px auto 5px;
-/    background-color: #fedcba;
-/    text-align: center;
-/}
+
 
 .main_visual {
     width: 100%;
@@ -93,29 +94,21 @@ header h1 {
     
 }
 
+figure {
+    margin: 10px auto 15px;
+    text-align:center;
+}
 
+figcaption {
+    font-size: 16px;
+    color: #9C9689;
+    text-align: center;
+}
 
-/p {
-/  margin: 10px 90px 15px 90px;
-/
-/}
-/
-/figure {
-/    margin: 10px auto 15px;
-/    text-align:center;
-/}
-/
-/figcaption {
-/    font-size: 16px;
-/    color: #9C9689;
-/    text-align: center;
-/}
-/
 /span {
 /  margin: 10px 90px 15px 90px;
 /  
 /}
-/
 
 
 /* アコーディオンのコンテンツ部分 */
