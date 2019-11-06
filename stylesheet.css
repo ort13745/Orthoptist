@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+  height: 65px;
+}
+
+header h1 {
+    margin: 55px 0 5px;
+    background-color: #fedcba;
+    text-align: center;
+}
+
+
+.global_navi ul {
+	max-width: 984px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffa;
+    text-align: center;
+}
+
+.global_navi ul li {
+    font-size: 14px;  /* フォントサイズ復活 */
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    margin-right: 1px;
+}
+
+.global_navi ul li a {
+    display: block;
+    padding: 5px 1px;
+    text-decoration: none;
+    
+}
+
+.global_navi {
+    margin-bottom: 25px;
+}
+
+
+.global_navi ul li.current a {
+    background-color: #0000ff;
+}
+
+
+.global_navi ul li a:hover {
+    background-color: #aff;
+}
+
+.content h2 {
+	max-width: 984px;
+    margin: 35px auto 5px;
+    background-color: #fedcba;
+    text-align: center;
+}
+
+.content h3 {
+	max-width: 984px;
+    margin: 55px auto ;
+    background-color: #fedcba;
+    text-align: center;
+}
+
+.content-area p {
+    margin: 35px auto ;
+}
+
+.content-text p {
+	margin-top: 20px;
+}
+
+
+
+.main_visual {
+    height: 450px;
+    margin: 0 auto 25px;
+    
+}
+
+
+
+/p {
+/  margin: 10px 90px 15px 90px;
+/
+/}
+/
+/figure {
+/    margin: 10px auto 15px;
+/    text-align:center;
+/}
+/
+/figcaption {
+/    font-size: 16px;
+/    color: #9C9689;
+/    text-align: center;
+/}
+/
+/span {
+/  margin: 10px 90px 15px 90px;
+/  
+/}
+/
+
+
+/* アコーディオンのコンテンツ部分 */
+.accordion-content {
+    /* 初期状態では非表示 */
+    display: none;
+
+    height: 1000px;
+    padding: 12px 6px;
+    border: 1px solid #ccc;
+}
+
+.accordion-title {
+    margin: 0;
+    border: 1px solid #aaa;
+    background-color: #fa6;
+    font-size: 1rem;
+}
+
+.accordion-title a {
+    display: block;
+    padding: 6px;
+    color: #307;
+    text-decoration: none;
+}
+
+footer {
+    margin: 50px auto 8px;
+    background-color: #987654;
+    text-align: center;
+}
+

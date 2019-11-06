@@ -1,0 +1,21 @@
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  
+  p {
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .global_navi {
+    margin-bottom: 10px;
+  }
+  .content {
+    margin-top: 100px;
+  }
+  
+  .content-text {
+  	margin-top: 250px;
+  }
+
+}
+
